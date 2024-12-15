@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">galeria_michalik</string>
+    <string name="mainTitle">Mój wymarzony krajobraz</string>
+    <string name="titleOne">Tatry</string>
+    <string name="subTitleOne">Tatry to rozległe pasmo górskie ciągnące się przez wschodnią i centralną Europę</string>
+    <string name="titleTwo">Mazury</string>
+    <string name="subTitleTwo">Mazury to miejsce gdzie znajduje się ogromna ilość jezior słynnych w Europie</string>
+    <string name="titleThree">Morze bałtyckie</string>
+    <string name="subTitleThree">Morze Bałtyckie to zimne, niskozasolone morze</string>
+    <string name="titleFour">Morskie oko</string>
+    <string name="subTitleFour">Morskie oko to najbardziej turystyczne miejsce Polskich Tatr</string>
+</resources>

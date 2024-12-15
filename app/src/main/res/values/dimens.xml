@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="marginJeden">125dp</dimen>
+    <dimen name="marginDwa">190dp</dimen>
+    <dimen name="marginTrzy">-200dp</dimen>
+    <dimen name="marginCztery">100dp</dimen>
+    <dimen name="marginPiec">550dp</dimen>
+    <dimen name="marginSzesc">620dp</dimen>
+    <dimen name="marginSiedem">225dp</dimen>
+    <dimen name="marginOsiem">920dp</dimen>
+    <dimen name="marginDziewiec">1000dp</dimen>
+    <dimen name="marginDziesiec">1000dp</dimen>
+    <dimen name="marginJedenascie">1375dp</dimen>
+    <dimen name="marginDwanacie">1450dp</dimen>
+    <dimen name="marginTrzynascie">1050dp</dimen>
+</resources>
