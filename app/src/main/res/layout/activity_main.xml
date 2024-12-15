@@ -35,11 +35,34 @@
                 style="@style/normalText"
                 android:layout_marginTop="@dimen/marginDwa"
                 />
+
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/first"
                 android:layout_marginTop="@dimen/marginTrzy"
+                android:layout_marginBottom="@dimen/marginCztery"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/titleTwo"
+                style="@style/typicalTitle"
+                android:layout_marginTop="@dimen/marginPiec"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/subTitleTwo"
+                style="@style/normalText"
+                android:layout_marginTop="@dimen/marginSzesc"
+                />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/twice"
+                android:layout_marginTop="@dimen/marginSiedem"
                 android:layout_marginBottom="@dimen/marginCztery"
                 />
 

@@ -5,6 +5,7 @@
     <dimen name="marginJeden">125dp</dimen>
     <dimen name="marginDwa">190dp</dimen>
     <dimen name="marginTrzy">-200dp</dimen>
+
     <dimen name="marginCztery">100dp</dimen>
     <dimen name="marginPiec">550dp</dimen>
     <dimen name="marginSzesc">620dp</dimen>
