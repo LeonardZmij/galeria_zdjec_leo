@@ -9,32 +9,35 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            tools:ignore="ScrollViewSize">
 
             <TextView
+                style="@style/MyStyleFirst"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mainTitle"
-                style="@style/MyStyleFirst"
-                />
+                tools:ignore="TextContrastCheck,VisualLintOverlap" />
+
             <TextView
+                style="@style/typicalTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/titleOne"
-                style="@style/typicalTitle"
                 android:layout_marginTop="@dimen/marginJeden"
-                />
+                android:text="@string/titleOne"
+                tools:ignore="TextContrastCheck,VisualLintOverlap" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/subTitleOne"
                 style="@style/normalText"
                 android:layout_marginTop="@dimen/marginDwa"
-                />
+                tools:ignore="VisualLintOverlap" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -42,29 +45,53 @@
                 android:src="@drawable/first"
                 android:layout_marginTop="@dimen/marginTrzy"
                 android:layout_marginBottom="@dimen/marginCztery"
-                />
+                tools:ignore="ContentDescription" />
 
             <TextView
+                style="@style/typicalTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/titleTwo"
-                style="@style/typicalTitle"
                 android:layout_marginTop="@dimen/marginPiec"
-                />
+                android:text="@string/titleTwo"
+                tools:ignore="TextContrastCheck,VisualLintOverlap" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/subTitleTwo"
                 style="@style/normalText"
                 android:layout_marginTop="@dimen/marginSzesc"
-                />
+                tools:ignore="VisualLintOverlap" />
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/twice"
                 android:layout_marginTop="@dimen/marginSiedem"
                 android:layout_marginBottom="@dimen/marginCztery"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/titleThree"
+                style="@style/typicalTitle"
+                android:layout_marginTop="@dimen/marginOsiem"
                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/subTitleThree"
+                style="@style/normalText"
+                android:layout_marginTop="@dimen/marginDziewiec"
+                tools:ignore="VisualLintOverlap" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tree"
+                android:layout_marginTop="@dimen/marginDziesiec"
+                android:layout_marginBottom="@dimen/marginCztery"
+                tools:ignore="ContentDescription" />
+
+
 
 
         </RelativeLayout>
